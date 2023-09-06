@@ -36,3 +36,28 @@ console.log(typeof bigNumber); // Output will be "BigInt"
 console.log(typeof outsideTemp); // Output will be "object"
 console.log(typeof score); // Output will be "number"
 console.log(typeof scoreValue); // Output will be "number"
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// MEMORY Concepts
+// Stack (Stack memory uses in all primitive type data). Heap (uses in NOn-Primitive datatype)
+
+let myActivityName = "Running"
+
+let anothername = myActivityName;
+anothername = "Reading";
+
+console.log(myActivityName);// output will be Running
+console.log(anothername);// output will be Reading
+
+let userOne = {
+    email: "user@google.com",
+    upi: "upi@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "prince@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
