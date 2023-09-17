@@ -35,11 +35,12 @@ if (true) {
         const website = " youtube"
         // console.log(username + website);
     }
-    // console.log(website);
+    // console.log(website);   // it will give the error
 }
 
-// console.log(username);
+// console.log(username);      // it will also give the error  
 
+// Whenever we have nested loop of funtions then the child funtions are able tp access the parent funtions
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
